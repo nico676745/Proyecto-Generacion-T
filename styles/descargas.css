@@ -1,0 +1,120 @@
+/* --- SECCIÓN DESCARGAS --- */
+h1{
+color: #0070e0;
+margin-bottom: 5rem;
+}
+
+.descargas {
+  padding: 8rem 2rem 4rem;
+  background: #121212;
+  color: #e0e0e0;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.descargas h2 {
+  font-size: 1.8rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.descargas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.descarga-item {
+  background: #353535;
+  border: 1px solid #1a1919;
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: transform 0.2s ease, border 0.2s ease;
+}
+
+.descarga-item:hover {
+  transform: translateY(-5px);
+  border: 1px solid #1e90ff;
+}
+
+.descarga-item h3 {
+  color: #1e90ff;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.descarga-item ul {
+  list-style: none;
+  text-align: left;
+  font-size: 0.9rem;
+  color: #b0b0b0;
+  margin-bottom: 1.5rem;
+}
+
+.descarga-item ul li {
+  margin-bottom: 0.3rem;
+}
+
+.so-icon {
+  width: 60px;
+  margin-bottom: 0.8rem;
+}
+
+.btn-descargar {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background: #1e90ff;
+  color: #fff;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background 0.2s ease;
+  cursor: pointer;
+}
+
+.btn-descargar:hover {
+  background: #0070e0;
+}
+
+
+/* --- Tabla de versiones --- */
+.tabla-versiones-container {
+  margin-top: 4rem;
+  background: #1c1c1c;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+.tabla-versiones-container h2 {
+  color: #1e90ff;
+  margin-bottom: 1.5rem;
+}
+
+.tabla-versiones {
+  width: 100%;
+  border-collapse: collapse;
+  color: #e0e0e0;
+}
+
+.tabla-versiones th, .tabla-versiones td {
+  border: 1px solid #333;
+  padding: 0.8rem;
+  text-align: center;
+}
+
+.tabla-versiones th {
+  background: #0070e0;
+  color: #fff;
+}
+
+.tabla-versiones tr:nth-child(even) {
+  background: #2a2a2a;
+}
+
+.tabla-versiones a.btn-descargar {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.8rem;
+  border-radius: 15px;
+}
