@@ -1,0 +1,104 @@
+/* --- Estilo FAQ --- */
+.faq-section {
+  background: #121212;
+  color: #e0e0e0;
+  padding: 8rem 2rem 4rem;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.faq-section h1 {
+  color: #1e90ff;
+  margin-bottom: 1rem;
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  text-align: left;
+}
+
+.faq-item {
+  background: #2a2a2a;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  border: 1px solid #333;
+}
+
+.faq-question {
+  background: none;
+  border: none;
+  color: #1e90ff;
+  width: 100%;
+  text-align: left;
+  padding: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.faq-question:hover {
+  background: #1e90ff22;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background: #1c1c1c;
+  padding: 0 1rem;
+}
+
+.faq-answer p {
+  padding: 1rem 0;
+  color: #ccc;
+}
+
+/* --- Formulario de preguntas --- */
+.faq-form {
+  max-width: 600px;
+  margin: 4rem auto;
+  background: #1c1c1c;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+.faq-form h2 {
+  color: #1e90ff;
+  margin-bottom: 1rem;
+}
+
+.faq-form input,
+.faq-form textarea {
+  width: 100%;
+  background: #2a2a2a;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.faq-form input:focus,
+.faq-form textarea:focus {
+  border-color: #1e90ff;
+  outline: none;
+}
+
+.btn-enviar {
+  background: #1e90ff;
+  border: none;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.btn-enviar:hover {
+  background: #0070e0;
+}

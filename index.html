@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi App</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<script src="scripts/app.js"></script>
+<body>
+
+  <!-- Header / Navbar -->
+  <header>
+    <div class="navbar">
+      <div class="logo"><img src="img/TAS.png" alt="logo de TAS"></div>
+
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">☰</label>
+
+      <nav class="nav-links">
+        <a href="index.html" class="active">Inicio</a>
+        <a href="paginas/funciones.html">Funciones</a>
+        <a href="paginas/faq.html">FAQ</a>
+        <a href="paginas/contacto.html">Contacto</a>
+        <a href="paginas/descargas.html">Descargas</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Inicios -->
+  <section id="inicios" class="inicios">
+    <!-- 🎥 Video de fondo -->
+    <video autoplay muted loop playsinline class="background-video">
+      <source src="/img/istockphoto-1371068225-640_adpp_is.mp4" type="video/mp4">
+      Tu navegador no soporta videos HTML5.
+    </video>
+
+    <div class="inicios-content">
+      <h1>Facilita el estudio y Traduce cualquier audio</h1>
+      <p>La app que te ayuda a traducir el lenguaje de señas y facilita el estudio.</p>
+      <div class="inicios-buttons">
+        <a href="paginas/contacto.html" class="btn-primary">Notificarme</a>
+        <a href="paginas/descargas.html" class="btn-secondary">Descargar App</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Beneficio -->
+  <section id="beneficio" class="beneficio">
+    <h2>Beneficios principales</h2>
+    <div class="beneficio-grid">
+      <div class="beneficio-item">
+        <img src="img/TAS.png" alt="Icono rapidez">
+        <h3>Es fácil de aprender a usar gracias a las guías que tenemos</h3>
+      </div>
+      <div class="beneficio-item">
+        <img src="img/TAS.png" alt="Icono seguridad">
+        <h3>Traducción rápida y precisa gracias a la IA</h3>
+      </div>
+      <div class="beneficio-item">
+        <img src="img/TAS.png" alt="Icono nube">
+        <h3>Facilita el aprendizaje del lenguaje de señas con su diccionario visual</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- 📝 Descripción general de la App -->
+  <section id="descripcion" class="descripcion">
+    <div class="descripcion-content">
+      <h2>¿De qué trata nuestra aplicación?</h2>
+      <p>
+        Nuestra aplicación está pensada para mejorar la comunicación entre personas oyentes y personas sordas. 
+        Utiliza inteligencia artificial para traducir el lenguaje hablado en tiempo real al lenguaje de señas, 
+        y viceversa, permitiendo una conexión más inclusiva y accesible para todos. 
+        Además, cuenta con herramientas educativas y guías interactivas que facilitan el aprendizaje 
+        del lenguaje de señas de manera sencilla y práctica.
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contacto">
+    <h3>Contáctanos</h3>
+    <p>Email: contacto@miapp.com</p>
+    <p>&copy; 2025 Mi App. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
