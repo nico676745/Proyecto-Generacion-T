@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Descargas - Mi App</title>
+  <link rel="stylesheet" href="/styles/descargas.css">
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="navbar">
+      <div class="logo"><img src="/img/TAS.png" alt="logo de TAS"></div>
+
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">☰</label>
+
+       <nav class="nav-links">
+        <a href="/index.html">Inicio</a>
+        <a href="/paginas/funciones.html" class="active">Funciones</a>
+        <a href="/paginas/faq.html">FAQ</a>
+        <a href="/paginas/contacto.html">Contacto</a>
+        <a href="/paginas/descargas.html">Descargas</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Sección Descargas -->
+  <section id="descargas" class="descargas">
+    <h1>Elige tu versión de TAS</h1>
+
+    <div class="descargas-grid">
+      <!-- Windows -->
+      <div class="descarga-item">
+        <img src="/img/windowsd.png" alt="Logo Windows" class="so-icon">
+        <h3>Windows</h3>
+        <ul>
+          <li>💾 Espacio: 200 MB</li>
+          <li>🧠 RAM: 4 GB mínimo</li>
+          <li>⚙️ SO: Windows 10 o superior</li>
+          <li>🌐 Conexión a Internet</li>
+        </ul>
+        <button class="btn-descargar" onclick="descargar('Windows')">Descargar</button>
+      </div>
+
+      <!-- Linux -->
+      <div class="descarga-item">
+        <img src="/img/linix.png " alt="Logo Linux" class="so-icon">
+        <h3>Linux</h3>
+        <ul>
+          <li>💾 Espacio: 150 MB</li>
+          <li>🧠 RAM: 2 GB mínimo</li>
+          <li>⚙️ SO: Ubuntu 20.04 / Fedora / Debian</li>
+          <li>🌐 Conexión a Internet</li>
+        </ul>
+        <button class="btn-descargar" onclick="descargar('Linux')">Descargar</button>
+      </div>
+
+      <!-- macOS -->
+      <div class="descarga-item">
+        <img src="/img/macos.png" alt="Logo macOS" class="so-icon">
+        <h3>macOS</h3>
+        <ul>
+          <li>💾 Espacio: 250 MB</li>
+          <li>🧠 RAM: 4 GB mínimo</li>
+          <li>⚙️ SO: macOS 11 o superior</li>
+          <li>🌐 Conexión a Internet</li>
+        </ul>
+        <button class="btn-descargar" onclick="descargar('macOS')">Descargar</button>
+      </div>
+
+      <!-- Android -->
+      <div class="descarga-item">
+        <img src="/img/android.png" alt="Logo Android" class="so-icon">
+        <h3>Android</h3>
+        <ul>
+          <li>💾 Espacio: 100 MB</li>
+          <li>🧠 RAM: 2 GB mínimo</li>
+          <li>⚙️ SO: Android 9.0 o superior</li>
+          <li>🌐 Conexión a Internet</li>
+        </ul>
+        <button class="btn-descargar" onclick="descargar('Android')">Descargar</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 📦 Cuadro de versiones -->
+    <div id="tabla-versiones-container" class="tabla-versiones-container">
+      <h2>📋 Historial de versiones disponibles</h2>
+      <table id="tabla-versiones" class="tabla-versiones">
+        <thead>
+          <tr>
+            <th>Versión</th>
+            <th>Fecha de lanzamiento</th>
+            <th>Cambios</th>
+            <th>Descargar App</th>
+            <th>Descargar Código</th>
+          </tr>
+        </thead>
+        <tbody id="tabla-cuerpo">
+          <!-- Se rellena con JS -->
+        </tbody>
+      </table>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+   <footer id="contacto">
+    <h3>Contáctanos</h3>
+    <p>Email: contacto@miapp.com</p>
+    <p>&copy; 2025 Mi App. Todos los derechos reservados.</p>
+  </footer>
+  <script src="/scripts/descargas.js"></script>
+</body>
+</html>
